@@ -1,0 +1,20 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+#root {
+  min-height: 100vh;
+  
+  /* background-color: rgb(207, 206, 206); */
+  background-image: url("../src/assets/lucianobl_abstract_light_blue_and_White_gradient_minimal_backgr_49b111da-4f97-4f19-875e-676a669bd53f.png");
+  background-size: cover;
+  font-family: "Quicksand", sans-serif;
+}
+
+body html{
+  height: 100vh;
+  background-color: #FDFAEB;
+  box-sizing: border-box;
+}
+

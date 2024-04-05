@@ -174,7 +174,7 @@ const ChangeBook = ({ setOpenChangeStatusModal }: Props) => {
                 <input
                   type="date"
                   className="input input-bordered w-full max-w-xs  rounded-3xl"
-                  min={initialDate}
+                  min={selectedBook?.initialDate}
                   onChange={(e) => setFinalDate(e.target.value)}
                 />
                 <div className="pt-4 text-center">

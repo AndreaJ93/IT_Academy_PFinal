@@ -76,7 +76,7 @@ const initialState: Data = {
     {
       onboardingTitle: "Busca cualquier libro",
       onBoardingDescription:
-        "Tenemos un buscado dónde podrás buscar cualquier libro y leer su descripción",
+        "Tenemos un buscador donde podrás buscar cualquier libro y leer su descripción",
       onBoardingImages: "/src/assets/book-stars2.png",
     },
   ],

@@ -12,7 +12,13 @@ const Profile = ({ img, name }: Props) => {
   return (
     <div className="grid grid-cols-2 py-2">
       <div className="pe-6">
-        <Link to="/profile">
+        <Link
+          to={
+            location.pathname === "/home" || location.pathname === "/profile"
+              ? "/profile"
+              : "/friendprofile"
+          }
+        >
           {img !== "" && img !== null ? (
             <div className="rounded-full shadow-lg shadow-white border border-4 border-[#9CBED3]">
               <img src={img} className="rounded-full" />

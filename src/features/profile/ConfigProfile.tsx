@@ -91,7 +91,7 @@ const ConfigProfile = () => {
               </div>
               <input
                 type="text"
-                value={user.userName}
+                value={userNameProfile}
                 className="input input-bordered w-full max-w-xs  rounded-3xl"
                 onChange={(e) => setUserNameProfile(e.target.value)}
               />

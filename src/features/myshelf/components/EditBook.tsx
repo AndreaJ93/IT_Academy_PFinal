@@ -149,7 +149,7 @@ const EditBook = ({ setOpenEditModal }: Props) => {
                 <input
                   type="date"
                   className="input input-bordered w-full max-w-xs  rounded-3xl"
-                  min={initialDate}
+                  min={selectedBook?.initialDate}
                   defaultValue={selectedBook?.finalDate}
                   onChange={(e) => setFinalDate(e.target.value)}
                 />

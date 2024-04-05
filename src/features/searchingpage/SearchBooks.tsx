@@ -57,7 +57,7 @@ const SearchBooks = () => {
         <input
           type="text"
           className="grow"
-          placeholder="Search"
+          placeholder="Busca libros por título"
           value={bookTitle}
           onChange={(e) => {
             setBookTitle(e.target.value);

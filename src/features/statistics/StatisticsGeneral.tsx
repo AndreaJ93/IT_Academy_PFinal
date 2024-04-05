@@ -50,7 +50,7 @@ const StatisticsGeneral = () => {
   const daysToReadLongest = longestTimeToread / (1000 * 60 * 60 * 24);
 
   return (
-    <div className="py-3">
+    <div className="py-4 text-center">
       {books &&
       books.length > 0 &&
       readBooks &&

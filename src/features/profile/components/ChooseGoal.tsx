@@ -1,6 +1,6 @@
 interface Props {
   userGoals: number | string;
-  setUserGoals: React.Dispatch<React.SetStateAction<number | string>>;
+  setUserGoals: React.Dispatch<React.SetStateAction<number>>;
 }
 
 const ChooseGoal = ({ userGoals, setUserGoals }: Props) => {

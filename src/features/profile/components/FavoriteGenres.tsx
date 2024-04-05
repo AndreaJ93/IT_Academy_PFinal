@@ -4,7 +4,7 @@ interface Props {
 const FavoriteGenres = ({ genres }: Props) => {
   return (
     <div className="py-2">
-      <h1 className="text-center font-bold">Generos preferidos:</h1>
+      <h1 className="text-center font-bold">Géneros preferidos:</h1>
 
       <div className="mx-auto">
         {genres.length === 0 ? (

@@ -15,7 +15,7 @@ const MyShelf = () => {
       <div className="">
         <div className="grid grid-cols-3 text-center bg-white rounded-3xl shadow-md">
           <button
-            className={`p-2 ${
+            className={` ${
               stateShelf === "reading"
                 ? " bg-[#D3E3EC] rounded-s-3xl font-bold"
                 : null
@@ -26,11 +26,11 @@ const MyShelf = () => {
             }}
           >
             <Link to="/myshelf/reading">
-              <div>Leyendo</div>
+              <div className="p-2">Leyendo</div>
             </Link>
           </button>
           <button
-            className={` p-2   ${
+            className={`   ${
               stateShelf === "read" ? " bg-[#D3E3EC] font-bold" : null
             }`}
             onClick={() => {
@@ -39,11 +39,11 @@ const MyShelf = () => {
             }}
           >
             <Link to="/myshelf/read">
-              <div>Leídos</div>
+              <div className="p-2">Leídos</div>
             </Link>
           </button>
           <button
-            className={` p-2  ${
+            className={`  ${
               stateShelf === "wantToRead"
                 ? " bg-[#D3E3EC] rounded-e-3xl font-bold"
                 : null
@@ -54,7 +54,7 @@ const MyShelf = () => {
             }}
           >
             <Link to="/myshelf/wantToRead">
-              <div>Pendientes</div>
+              <div className="p-2">Pendientes</div>
             </Link>
           </button>
         </div>

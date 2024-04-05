@@ -16,7 +16,7 @@ const StatisticsCharts = () => {
           <ChartGenre></ChartGenre>
         </div>
       ) : (
-        "No tienes estadísticas"
+        <div className="py-4 text-center"> No tienes estadísticas</div>
       )}
     </div>
   );

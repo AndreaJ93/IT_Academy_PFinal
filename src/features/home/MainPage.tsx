@@ -66,10 +66,10 @@ const MainPage = () => {
         <div className=" shadow-md p-3 rounded-3xl mx-3 grid justify-center bg-white">
           <button className="">
             <Link to="/search">
-              <div className="grid grid-cols-2 ">
+              <div className="grid grid-cols-3 ">
                 <div>{searchBig}</div>
-                <h1 className="font-semibold text-center self-center text-lg">
-                  Búsqueda
+                <h1 className="font-semibold text-center self-center text-lg col-span-2">
+                  Buscar libros
                 </h1>
               </div>
             </Link>
